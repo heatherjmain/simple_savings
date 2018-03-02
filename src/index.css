@@ -1,0 +1,158 @@
+h1 {
+  color: #f06c00;
+  font-family: Mary Ann;
+  font-size: 45px
+}
+
+h2 {
+  color: #f06c00;
+  margin-top: 20%;
+  font-family: Mary Ann;
+  font-size: 45px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-screen-buttons, .home-button {
+  text-align: center;
+  position:relative;
+  margin-top:20%;
+}
+
+.home-button {
+  text-align: center;
+  position:relative;
+  margin-top: 5%;
+}
+
+.confirmation-screen-buttons {
+  text-align: center;
+  position:relative;
+  margin-top:30%;
+}
+
+button {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #7F0442;
+  padding: 25px;
+  text-decoration: none;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.scan-page {
+  text-align: center;
+}
+
+.savings-page {
+  text-align: center;
+}
+
+.scanner {
+  width: 75%;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.scanner-button {
+  margin-top: 20%;
+}
+
+.scan-confirmation-page {
+  text-align: center;
+}
+
+.black-text {
+  color: black;
+  font-size: 36px;
+  margin-top: 10%;
+}
+
+.scanned-amount-text {
+  font-size: 140px;
+  margin-top: -10%;
+}
+
+.cylinder-wrapper {
+  text-align: center;
+  margin-top: -7%;
+}
+
+.cylinder {
+  width: 30%;
+  /* -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden; */
+}
+
+/* .cylinder.show{
+  opacity: 1;
+  visibility: visible;
+} */
+
+.key {
+  display:inline-flex;
+  align-items:center;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.key-potential, .key-savings {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ .key-nectar {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #7F0442;
+}
+
+.key-potential {
+  color: #B8B8B8;
+}
+
+.key-savings {
+  color: #f06c00;
+}
+
+.nectar {
+  width:41px;
+  height:41px;
+}
+
+.transactions {
+  margin: auto;
+  margin-bottom: 2%;
+  width: 70%;
+  border: 1px solid #7F0442;
+  border-left: 20px solid #7F0442;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+}
+
+h5, p {
+  margin: 10px;
+  text-align: left;
+  font-size: 14px;
+}
